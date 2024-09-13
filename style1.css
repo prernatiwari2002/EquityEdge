@@ -1,0 +1,151 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #000;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 1.5rem;
+    color: #f5a623;
+    margin: 0;
+}
+
+/* Registration Section */
+#registration {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.content h2 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: red;
+}
+
+/* Form Styling */
+#registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    border-color: #007bff;
+}
+
+.phone-input {
+    display: flex;
+    align-items: center;
+}
+
+.country-code {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+input[type="tel"] {
+    border-radius: 0 5px 5px 0;
+}
+
+.whatsapp-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.whatsapp-info p {
+    margin-right: 10px;
+}
+
+.whatsapp-icon {
+    width: 25px;
+    height: 25px;
+}
+
+/* Button */
+.submit-btn {
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #333;
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.terms a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
